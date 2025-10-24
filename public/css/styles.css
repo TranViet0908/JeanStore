@@ -1,0 +1,171 @@
+/* ==== RESET ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==== BODY ==== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f4f4 url('https://www.transparenttextures.com/patterns/denim.png');
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==== HEADER ==== */
+header {
+    background: linear-gradient(135deg, #1d3557, #264653);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #f4a261; /* vàng đồng */
+}
+
+/* ==== CONTAINER ==== */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* ==== TITLES ==== */
+h2 {
+    color: #1d3557;
+    margin-bottom: 20px;
+    border-left: 5px solid #f4a261;
+    padding-left: 10px;
+}
+
+/* ==== TABLE ==== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+thead {
+    background-color: #1d3557;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* ==== BUTTONS ==== */
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-add {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #f4a261;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e63946;
+    color: white;
+}
+
+.btn-view {
+    background-color: #457b9d;
+    color: white;
+}
+
+.btn-back {
+    background-color: #264653;
+    color: white;
+}
+
+/* ==== FORM ==== */
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #264653;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* ==== FOOTER ==== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1d3557;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
